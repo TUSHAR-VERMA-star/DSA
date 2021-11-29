@@ -12,7 +12,7 @@ public:
     }
     
 };
-class first : public second
+class first 
 {
 public:
     int val1;
@@ -36,7 +36,7 @@ int main()
     second y;
     x.val1 = 10;
     x.val2 = 20;
-    y.val1 = 20;
+    y.val1 = 10;
     y.val2 = 20;
     
     if (x == y)
